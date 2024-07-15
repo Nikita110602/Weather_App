@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.pinimg.com/564x/b8/67/d4/b867d4060a38c8c53e2503aa486c817b.jpg);
+  background-repeat: no-repeat;
+  background-size: 120rem 70rem;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container{
+  width: 480px;
+  height: 100px;
+  margin: auto;
+  padding: 12px;
+  /* background-color: #FFFAE6; */
+  margin-top: 33px;
+  /* background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat; */
+  
+}
+.inputs{
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 18px;
+}
+input{
+  width: 85%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 6%;
+  border: none;
+  background-color: #FFAAAA;
+  box-shadow: 0px 3px 2px rgb(218, 218, 218);
+}
+.inputs button{
+  background-color: #ADD899;
+  color: black;
+  width: 44px;
+  border-radius: 55px;
+  border: none;
+  box-shadow: 0px 3px 2px rgb(218, 218, 218);
+  font-size: 18px;
+  cursor: pointer;
+}
+.weathers{
+  text-align: center;
+
+}
+.weathers img{
+  width: 190px;
+  margin-top: -11px;
+}
+.weathers p{
+  font-size: 30px;
+   
+}
+.weathers .climate{
+  margin-top: -29px;
+}
+.errorPage{
+  text-align: center;
+}
+.errorPage p{
+  font-size: 22px;
+}
+.errorPage img{
+  width: 200px;
+}
+.weathers .cityName{
+  font-size: 30px;
+  margin-top: 36px;
+}
+.weathers .temprature{
+  font-size: 54px;
+  margin-top: -12px;
+}
